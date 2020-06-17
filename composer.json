@@ -15,10 +15,15 @@
             "email": "dev.gummibeer@gmail.com",
             "homepage": "https://gummibeer.de",
             "role": "Developer"
+        },
+        {
+            "name": "Uyo-obong A.",
+            "email": "uyoobonga@gmail.com",
+            "role": "Developer"
         }
     ],
     "support": {
-        "issues": "https://github.com/dimsav/laravel-translatable/issues"
+        "issues": "https://github.com/uyo-obong/words-translatable/issues"
     },
     "require": {
         "php": ">=7.2.0",

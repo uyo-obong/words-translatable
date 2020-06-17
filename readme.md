@@ -1,4 +1,4 @@
-**This package [has been deprecated](https://twitter.com/dimsav/status/1140750099875860481). But worry not. You can use [Astrotomic/laravel-translatable](https://github.com/Astrotomic/laravel-translatable)**.
+**This package [has been deprecated](https://twitter.com/dimsav/status/1140750099875860481). But worry not. You can use [uyoobonga/words-translatable](https://github.com/uyo-obong/words-translatable)**.
 
 ---
 
@@ -77,18 +77,8 @@ This is a Laravel package for translatable models. Its goal is to remove the com
 
  Laravel  | Translatable
 :---------|:----------
- 5.8      | 9.*
- 5.7      | 9.*
- 5.6      | 9.*
- 5.5      | 8.*
- 5.4      | 7.*
- 5.3      | 6.*
- 5.2      | 5.5 - 6.*
- 5.1      | 5.0 - 6.*
- 5.0      | 5.0 - 5.4
- 4.2.x    | 4.4.x
- 4.1.x    | 4.4.x
- 4.0.x    | 4.3.x
+ 5.8      | 1.0.*
+ 
 
 ## Tutorials
 
@@ -102,7 +92,7 @@ This is a Laravel package for translatable models. Its goal is to remove the com
 Add the package in your composer.json by executing the command.
 
 ```bash
-composer require dimsav/laravel-translatable
+composer require uyoobonga/words-translatable
 ```
 
 Next, add the service provider to `app/config/app.php`
@@ -625,12 +615,4 @@ Schema::create('language_translations', function(Blueprint $table){
 
 The best solution though would be to update your mysql version. And **always make sure you have the same version both in development and production environment!**
 
-## Donations
 
-This software has been crafted with attention and love.
-
-Show your love and support by sending bitcoin to this address: `167QC4XQ3acgbwVYWAdmS81jARCcVTWBXU`
-
-Or by sending to this PayPal address: `ds@dimsav.com`
-
-❤️ Thank you!
